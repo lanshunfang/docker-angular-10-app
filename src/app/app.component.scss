@@ -1,0 +1,7 @@
+:host {
+  color: red;
+  @if false {
+    border-radius: 2;
+    --ms-nice: 'Nice';
+  }
+}
