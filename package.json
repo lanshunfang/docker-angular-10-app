@@ -3,9 +3,9 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
-    "start-azure": "ng serve --configuration=serve-azure",
-    "start-googlecloud": "ng serve --configuration=serve-googlecloud",
+    "start": "ng serve --host 0.0.0.0",
+    "start-azure": "ng serve --host 0.0.0.0 --configuration=serve-azure",
+    "start-googlecloud": "ng serve --host 0.0.0.0 --configuration=serve-googlecloud",
     "build": "ng build",
     "build-azure": "ng build --configuration=production-azure",
     "build-googlecloud": "ng build --configuration=production-googlecloud",
